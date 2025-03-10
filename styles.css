@@ -1,0 +1,152 @@
+* {
+    font-family: Roboto, 'Times New Roman', Times, serif;
+}
+
+.header {
+
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+ul {
+
+    list-style: none;
+    display: flex;
+    gap: 14px;
+    color: #F9FAF8;
+    margin-right: 10%;
+    margin-left: auto;
+}
+
+.header-logo {
+
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 10%;
+}
+
+.hero {
+
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: #1F2937;   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.hero-img {
+
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.hero-img img {
+
+    width: 100%;
+    height: auto;
+}
+
+.hero-text-container {
+
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.hero-title {
+
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.hero-subtext {
+
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0 ;
+}
+
+
+.hero-button {
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 25%;
+    border-radius: 25px;
+    flex-shrink: 0;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-header {
+
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.content-image-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.content-subcontainer {
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    flex-wrap: wrap;
+}
+
+.content-img {
+
+    border-radius: 25px;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937; 
+    padding: 15px;
+}
+
+.footer p {
+
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.qoute-container {
+
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 80px;
+    margin-top: 15px;
+    justify-content: center;
+    
+}
+
+.qoute-container p {
+
+    font-size: 36px;
+    color: #1F2937;
+    max-width: 50%;
+}
